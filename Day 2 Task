@@ -1,0 +1,11 @@
+l = list(map(int,input().split()))
+temp=[]
+for i in l:
+    mul = 1
+    for j in l:
+        if (i!=j):
+            mul = mul*j
+        
+    temp.append(mul)
+    
+print(temp)
