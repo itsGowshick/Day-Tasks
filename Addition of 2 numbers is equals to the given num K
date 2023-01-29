@@ -1,0 +1,13 @@
+me = list(map(int,input().split()))
+k = int(input())
+for i in me:
+    for j in me:
+        if(i+j == k):
+            if(i!=j):
+                ans = 'true'
+            break
+            
+        else:
+            ans = 'false'
+            
+print(ans)
